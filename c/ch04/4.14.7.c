@@ -26,7 +26,7 @@ void deblank(char string[])
 	blanks = 0;
 	j = 0;
 
-	for(int i = 0; i < len && string[i] != '\0'; ++i){
+	for(int i = 0; i < len; ++i){
 		if(string[i] == ' '){
 			ch[j++] = string[i];
 			
